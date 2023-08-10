@@ -84,7 +84,7 @@ export default function Home() {
 
       {/* main section */}
 
-      <div className="p-4 md:p-24">
+      <div className="container mx-auto px-5">
         {cards.map((card, index) => (
           <Card key={index} card={card} />
         ))}
